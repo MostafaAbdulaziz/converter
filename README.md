@@ -1,16 +1,31 @@
-# converter
+### Application description
 
-A new Flutter project.
+A simple application to test the flutter_tts package. We write some sentences in English and then press the play button. It will convert text to speech. We can stop the speech by pressing the stop button and we can resume the speech by pressing the restart button.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+<br>
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" />
+</div>
 
-A few resources to get you started if this is your first Flutter project:
+## 🙋‍♂️ Uses:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- To convert text to speech using flutter_tts 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- State Management is Bloc.
+
+- Make the app responsive using flutter_screenutil and MediaQuery
+
+
+
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" />
+</div>
+<br>
+
+
+## 🚀 Some packages used:
+
+- flutter_tts
+- bloc & flutter_bloc
+- flutter_screenutil
