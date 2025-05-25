@@ -19,12 +19,12 @@ class ButtonsSessions extends StatelessWidget {
 
         icon: Icons.play_arrow,
       ),
-      SizedBox(width: ConstantNumbers.screenWidth / 10),
+      _createSpacing(),
       CustomButtonApp(
         function: () async => await ConverterService.stop(),
         icon: Icons.stop,
       ),
-      SizedBox(width: ConstantNumbers.screenWidth / 10),
+      _createSpacing(),
       CustomButtonApp(
         function:
             () async =>
@@ -33,4 +33,5 @@ class ButtonsSessions extends StatelessWidget {
       ),
     ],
   );
+  Widget _createSpacing() => SizedBox(width: ConstantNumbers.screenWidth / 10);
 }

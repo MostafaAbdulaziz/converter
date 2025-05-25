@@ -8,9 +8,6 @@ import '../core/enums/control_name_enum.dart' show ControlName;
 class AppCubit extends Cubit<AppStates> {
   AppCubit() : super(InitialSates());
 
-  // double speechRate = 1;
-  // double volume = 0.5;
-  // double pitch = 1;
   void moveSlider(double currentValue, ControlName controlName) {
     switch (controlName) {
       case ControlName.volume:
